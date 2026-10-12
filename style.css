@@ -1,0 +1,26 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #e8f0fe;
+  text-align: center;
+  padding: 30px;
+}
+.container {
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  max-width: 450px;
+  margin: 30px auto;
+}
+h1 { color: #2563eb; }
+.menu { display: flex; flex-direction: column; gap: 10px; }
+button {
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 15px;
+}
+button:hover { background-color: #1d4ed8; }
+#hasil { margin-top: 20px; font-weight: bold; line-height: 1.8; }
